@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="login.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="namefield">
+                    <input type="text" placeholder ="Username" >
+                    </div>
+
+                    <div class="input-field">
+                    <input type="email" placeholder ="Email" >
+                    </div>
+
+                    <div class="input-field">
+                    <input type="password" placeholder ="Password" >
+                    </div>
+                    <p>Forget Password <a href="#">Click Here</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button">Sign up</button>
+                    <button type="button" class="disable">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<script>
+  let SignupBtn= document.getElementById("SignupBtn");
+  let SigninBtn= document.getElementById("SigninBtn");
+  var nameField= document.getElementById("namefield");
+  var title= document.getElementById("title");
+
+  SigninBtn.onclick = function(){
+    nameField.style.maxHeight="0px";
+    title.innerHTML="Sign In";
+    SignupBtn.classList.add("disable");
+    SigninBtn.classList.remove("disable");
+  }
+
+  SignupBtn.onclick = function(){
+    nameField.style.maxHeight="60px";
+    title.innerHTML="Sign Up";
+    SignupBtn.classList.remove("disable");
+    SigninBtn.classList.add("disable");
+  }
+  document.getElementById('SignupBtn').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // You can add your form submission logic here
+      alert('Form submitted!');
+    });
+</script>
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field" id="namefield">
+                    <input type="text" placeholder ="Username" >
+                    </div>
+
+                    <div class="input-field">
+                    <input type="email" placeholder ="Email" >
+                    </div>
+
+                    <div class="input-field">
+                    <input type="password" placeholder ="Password" >
+                    </div>
+                    <p>Forget Password <a href="#">Click Here</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button">Sign up</button>
+                    <button type="button" class="disable">Sign in</button>
+                </div>
+            </form>
+        </div>
+    </div>
+<script>
+  let SignupBtn= document.getElementById("SignupBtn");
+  let SigninBtn= document.getElementById("SigninBtn");
+  var nameField= document.getElementById("namefield");
+  var title= document.getElementById("title");
+
+  SigninBtn.onclick = function(){
+    nameField.style.maxHeight="0px";
+    title.innerHTML="Sign In";
+    SignupBtn.classList.add("disable");
+    SigninBtn.classList.remove("disable");
+  }
+
+  SignupBtn.onclick = function(){
+    nameField.style.maxHeight="60px";
+    title.innerHTML="Sign Up";
+    SignupBtn.classList.remove("disable");
+    SigninBtn.classList.add("disable");
+  }
+  document.getElementById('SignupBtn').addEventListener('submit', function(event) {
+      event.preventDefault();
+      // You can add your form submission logic here
+      alert('Form submitted!');
+    });
+</script>
+</body>
+</html>

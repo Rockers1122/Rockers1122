@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mess Food Waste Monitoring</title>
+  <link rel="stylesheet" href="waste.css">
+</head>
+<body>
+  <header>
+    <h1>Mess Food Waste Monitoring</h1>
+  </header>
+  <div class="container">
+    <section id="foodConsumption">
+      <h2>Food Consumption</h2>
+      
+      <label for="totalMeals">Total Meals Served: </label>
+      <input type="range" id="totalMeals" min="50" max="150" name="was"/>
+      <div>
+      <label for="mealsWasted">Meals Wasted: </label>
+      <input type="range" id="mealsWasted" min="50" max="150" name="was"/>
+      </div>
+      <div>
+        <label for="wastagePercentage">Meals Wasted: </label>
+        <input type="range" id="wastagePercentage" min="0" max="100" name="was"/>
+    </div>
+    </section>
+    <section id="wasteMonitoring">
+      <h2>Waste Monitoring</h2>
+      <form id="wasteForm">
+        <label for="wasteAmount">Amount of Food Wasted(in no. of meals):</label>
+        <input type="number" id="wasteAmount" name="wasteAmount" min="0" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </div>
+  <script src="waste.js"></script>
+</body>
+</html>

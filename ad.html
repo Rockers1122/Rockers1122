@@ -1,0 +1,324 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mess Breakfast Voting</title>
+    <link rel="stylesheet" href="ad.css">
+</head>
+<body><
+    <div class="container">
+        <h1>Mess Breakfast Voting</h1>
+        <p>Please vote for your preferred breakfast option:</p>
+        <div class="options">
+            <div id="options-monday">
+                <h3>Monday</h3>
+                <input type="radio" name="breakfast-monday" value="Pancakes" id="pancakes-monday"><label for="pancakes-monday"> Pancakes</label><br>
+                <input type="radio" name="breakfast-monday" value="Omelette" id="omelette-monday"><label for="omelette-monday"> Omelette</label><br>
+                <input type="radio" name="breakfast-monday" value="Cereal" id="cereal-monday"><label for="cereal-monday"> Cereal</label><br>
+                <input type="radio" name="breakfast-monday" value="Toast" id="toast-monday"><label for="toast-monday"> Toast</label><br>
+            </div>
+            <!-- Repeat for other days of the week -->
+        </div>
+        <button onclick="submitVote()">Submit Vote</button>
+        <p id="result"></p>
+    </div>
+    <div class="container">
+    
+    
+    <div class="options">
+        <div id="options-tuesday">
+            <h3>Tuesday</h3>
+            <input type="radio" name="breakfast-tuesday" value="Dosa" id="dosa-tuesday"><label for="Dosa-tuesday"> Dosa</label><br>
+            <input type="radio" name="breakfast-tuesday" value="Poha" id="poha-tuesday"><label for="Poha-tuesday"> Poha</label><br>
+            <input type="radio" name="breakfast-tuesday" value="Upma" id="upma-tuesday"><label for="Upma-tuesday"> Upma</label><br>
+            <input type="radio" name="breakfast-tuesday" value="Aalu parantha" id="aalu parantha-tuesday"><label for="aalu parantha-tuesday"> Aalu parantha</label><br>
+        </div>
+        <!-- Repeat for other days of the week -->
+    </div>
+    <button onclick="submitVote()">Submit Vote</button>
+    <p id="result"></p>
+</div>
+<div class="container">
+    
+    
+    <div class="options">
+        <div id="options-wednesday">
+            <h3>Wednesday</h3>
+            <input type="radio" name="breakfast-wednesday" value="Dosa" id="dosa-wednesday"><label for="dosa-wednesday"> Pancakes</label><br>
+            <input type="radio" name="breakfast-wednesday" value="Omelette" id="omelette-wednesday"><label for="fried rice-wednesday"> Fried Rice</label><br>
+            <input type="radio" name="breakfast-wednesday" value="Sprouts" id="sprouts-wednesday"><label for="sprouts-wednesday"> Sprouts</label><br>
+            <input type="radio" name="breakfast-wednesday" value="Pav Bhajii" id="pav bhajii-wednesday"><label for="pav bhajii-wednesday"> Pav Bhajii</label><br>
+        </div>
+        <!-- Repeat for other days of the week -->
+    </div>
+    <button onclick="submitVote()">Submit Vote</button>
+    <p id="result"></p>
+</div>
+<div class="container">
+<div class="options">
+    <div id="options-thursday">
+        <h3>Thursday</h3>
+        <input type="radio" name="breakfast-thursday" value="Sprouts" id="sprouts-thursday"><label for="sprouts-thursday"> Sprouts</label><br>
+        <input type="radio" name="breakfast-thursday" value="Fried Rice" id="fried rice-thursday"><label for="fried rice-thursday"> Fried Rice</label><br>
+        <input type="radio" name="breakfast-thursday" value="Cereal" id="cereal-thursday"><label for="cereal-thursday"> Cereal</label><br>
+        <input type="radio" name="breakfast-thursday" value="Gobhi Parantha" id="gobhi parantha-thursday"><label for="gobhi parantha-thursday"> Gobhi Parantha</label><br>
+    </div>
+    <!-- Repeat for other days of the week -->
+</div>
+<button onclick="submitVote()">Submit Vote</button>
+<p id="result"></p>
+</div>
+<div class="container">
+    <div class="options">
+        <div id="options-friday">
+            <h3>Friday</h3>
+            <input type="radio" name="breakfast-friday" value="Sprouts" id="sprouts-friday"><label for="sprouts-friday"> Sprouts</label><br>
+            <input type="radio" name="breakfast-friday" value="Fried Rice" id="fried rice-friday"><label for="fried rice-friday"> Fried Rice</label><br>
+            <input type="radio" name="breakfast-friday" value="Cereal" id="cereal-friday"><label for="cereal-friday"> Cereal</label><br>
+            <input type="radio" name="breakfast-friday" value="Idli Sambhar" id="idli sambhar-friday"><label for="idli sambhar-friday"> Idli Sambhar</label><br>
+        </div>
+        <!-- Repeat for other days of the week -->
+    </div>
+    <button onclick="submitVote()">Submit Vote</button>
+    <p id="result"></p>
+    </div>
+    <div class="container">
+        <div class="options">
+            <div id="options-saturday">
+                <h3>Saturday</h3>
+                <input type="radio" name="breakfast-saturday" value="Dosa" id="dosa-saturday"><label for="dosa-saturday"> Dosa</label><br>
+                <input type="radio" name="breakfast-saturday" value="Omelette" id="omelette-saturday"><label for="omelette-saturday"> Omelette</label><br>
+                <input type="radio" name="breakfast-saturday" value="Cereal" id="cereal-saturday"><label for="cereal-saturday"> Cereal</label><br>
+                <input type="radio" name="breakfast-saturday" value="Aloo parantha" id="aloo parantha-saturday"><label for="aloo parantha-saturday"> Aloo parantha</label><br>
+            </div>
+            <!-- Repeat for other days of the week -->
+        </div>
+        <button onclick="submitVote()">Submit Vote</button>
+        <p id="result"></p>
+        </div>
+        <div class="container">
+            <div class="options">
+                <div id="options-Sunday">
+                    <h3>Sunday</h3>
+                    <input type="radio" name="breakfast-Sunday" value="Pancakes" id="pancakes-Sunday"><label for="Arhar Dal rice-Sunday"> Pancakes</label><br>
+                    <input type="radio" name="breakfast-Sunday" value="Omelette" id="omelette-Sunday"><label for="omelette-Sunday"> Omelette</label><br>
+                    <input type="radio" name="breakfast-Sunday" value="Cereal" id="cereal-Sunday"><label for="cereal-Sunday"> Cereal</label><br>
+                    <input type="radio" name="breakfast-Sunday" value="Fried Rice" id="fried rice-Sunday"><label for="fried rice-Sunday"> Fried Rice</label><br>
+                </div>
+                <!-- Repeat for other days of the week -->
+            </div>
+            <button onclick="submitVote()">Submit Vote</button>
+            <p id="result"></p>
+            </div>
+            <div class="container">
+        <h1>Mess Lunch Voting</h1>
+        <p>Please vote for your preferred  breakfast option:</p>
+        <div class="options">
+            <div id="options-monday">
+                <h3>Monday</h3>
+                <input type="radio" name="Lunch" value="Arhar Dal rice" id="Arhar Dal rice-monday"><label for=" arhar dal rice-monday">Arhar Dal rice</label><br>
+                <input type="radio" name="Lunch" value="Beans chappati" id="Beans chappati-monday"><label for="Beans chappati-monday">Beans chappati</label><br>
+                <input type="radio" name="Lunch" value="Aloopuri" id="Aloopuri-monday"><label for="Aloopuri-monday">Aloopuri </label><br>
+                <input type="radio" name="Lunch" value="Kadhi chawal" id="Kadhi chawal-monday"><label for="Kadhi chawal-monday">Kadhi chawal </label><br>
+            </div>
+            <!-- Repeat for other days of the week -->
+        </div>
+        <button onclick="submitVote()">Submit Vote</button>
+        <p id="result"></p>
+    </div>
+    <div class="container">
+         
+    
+    <div class="options">
+        <div id="options-tuesday">
+            <h3>Tuesday</h3>
+            <input type="radio" name="Lunch-tuesday" value="Dal makhani" id="Dal makhani-tuesday"><label for="Dal makhani-tuesday"> Dal makhani</label><br>
+            <input type="radio" name="Lunch-tuesday" value="Rajma chawal" id="Rajma chawal-tuesday"><label for="-Rajma chawaltuesday"> Rajma chawal</label><br>
+            <input type="radio" name="Lunch-tuesday" value="Aloo parantha" id="Aloo parantha-tuesday"><label for="Aloo parantha-tuesday"> Aloo parantha</label><br>
+            <input type="radio" name="Lunch-tuesday" value="Chole bhature" id="Chole bhature-tuesday"><label for="Chole bhature-tuesday">Chole bhature </label><br>
+        </div>
+        <!-- Repeat for other days of the week -->
+    </div>
+    <button onclick="submitVote()">Submit Vote</button>
+    <p id="result"></p>
+</div>
+<div class="container">
+    
+    
+    <div class="options">
+        <div id="options-wednesday">
+            <h3>Wednesday</h3>
+            <input type="radio" name="Lunch-wednesday" value="Malka dal" id="Malka dal-wednesday"><label for="Malka dal-wednesday"> Malka dal</label><br>
+            <input type="radio" name="Lunch-wednesday" value="Paneer bhurji" id="Paneer bhurji-wednesday"><label for="Paneer bhurji-wednesday">Paneer bhurji </label><br>
+            <input type="radio" name="Lunch-wednesday" value="Aloo matar" id="Aloo matar-wednesday"><label for="Aloo matar-wednesday">Aloo matar </label><br>
+            <input type="radio" name="Lunch-wednesday" value="Pav Bhajii" id="pav bhajii-wednesday"><label for="pav bhajii-wednesday"> Pav Bhajii</label><br>
+        </div>
+        <!-- Repeat for other days of the week -->
+    </div>
+    <button onclick="submitVote()">Submit Vote</button>
+    <p id="result"></p>
+</div>
+<div class="container">
+<div class="options">
+    <div id="options-thursday">
+        <h3>Thursday</h3>
+        <input type="radio" name="Lunch-thursday" value="Veg biryani" id="Veg biryani-thursday"><label for="Veg biryani-thursday"> Veg biryani</label><br>
+        <input type="radio" name="Lunch-thursday" value="Fried Rice" id="fried rice-thursday"><label for="fried rice-thursday"> Fried Rice</label><br>
+        <input type="radio" name="Lunch-thursday" value="Mix veg" id="Mix veg-thursday"><label for="Mix veg-thursday"> Mix veg</label><br>
+        <input type="radio" name="Lunch-thursday" value="Gobhi Parantha" id="gobhi parantha-thursday"><label for="gobhi parantha-thursday"> Gobhi Parantha</label><br>
+    </div>
+    <!-- Repeat for other days of the week -->
+</div>
+<button onclick="submitVote()">Submit Vote</button>
+<p id="result"></p>
+</div>
+<div class="container">
+    <div class="options">
+        <div id="options-friday">
+            <h3>Friday</h3>
+            <input type="radio" name="Lunch-friday" value="Matar paneer" id="Matar paneer-friday"><label for="-friday"> Matar paneer</label><br>
+            
+          <input type="radio" name="Lunch-friday" value="Chaat kulcha" id="Chaat kulcha-friday"><label for="Chaat kulcha-friday"> Chaat kulcha</label><br>
+            <input type="radio" name="Lunch-friday" value="Malai kofta" id="Malai kofta-friday"><label for="Malai kofta-friday">Malai kofta </label><br>
+            
+            <input type="radio" name="Lunch-friday" value="Idli Sambhar" id="idli sambhar-friday"><label for="idli sambhar-friday"> Idli Sambhar</label><br>
+        </div>
+        <!-- Repeat for other days of the week -->
+    </div>
+    <button onclick="submitVote()">Submit Vote</button>
+    <p id="result"></p>
+    </div>
+    <div class="container">
+        <div class="options">
+            <div id="options-saturday">
+                <h3>Saturday</h3>
+                <input type="radio" name="Lunch-saturday" value="Dosa" id="dosa-saturday"><label for="dosa-saturday"> Dosa</label><br>
+                <input type="radio" name="Lunch-saturday" value="Chana puri" id="Chana puri-saturday"><label for="Chana puri-saturday">Chana puri </label><br>
+                <input type="radio" name="Lunch-saturday" value="Pulao" id="Pulao-saturday"><label for="Pulao-saturday">Pulao </label><br>
+                <input type="radio" name="Lunch-saturday" value="Aloo parantha" id="aloo parantha-saturday"><label for="aloo parantha-saturday"> Aloo parantha</label><br>
+            </div>
+            <!-- Repeat for other days of the week -->
+        </div>
+        <button onclick="submitVote()">Submit Vote</button>
+        <p id="result"></p>
+        </div>
+        <div class="container">
+            <div class="options">
+                <div id="options-Sunday">
+                    <h3>Sunday</h3>
+                    <input type="radio" name="Lunch-Sunday" value="Chole chawal" id=" Chole chawal-Sunday"><label for=" Chole chawal-Sunday"> Chole chawal</label><br>
+                    <input type="radio" name="Lunch-Sunday" value="Aloo gobhi" id="Aloo gobhi-Sunday"><label for="Aloo gobhi-Sunday">Aloo gobhi</label><br>
+                    <input type="radio" name="Lunch-Sunday" value="Baigan aloo" id="Baigan aloo-Sunday"><label for="Baigan aloo-Sunday">Baigan aloo </label><br>
+                    <input type="radio" name="Lunch-Sunday" value="Fried Rice" id="fried rice-Sunday"><label for="fried rice-Sunday"> Fried Rice</label><br>
+                </div>
+                <!-- Repeat for other days of the week -->
+            </div>
+            <button onclick="submitVote()">Submit Vote</button>
+            <p id="result"></p>
+            </div>
+            <div class="container">
+                <h1>Mess Dinner Voting</h1>
+               
+                <div class="options">
+                    <div id="options-monday">
+                        <h3>Monday</h3>
+                        <input type="radio" name="dinner-monday" value="Pizza" id="pizza-monday"><label for="pizza-monday"> Pizza</label><br>
+                        <input type="radio" name="dinner-monday" value="Egg cury" id="Egg cury-monday"><label for="Egg cury-monday"> Egg cury</label><br>
+                        <input type="radio" name="dinner-monday" value="Aloo gajar" id="Aloo gajar-monday"><label for="Aloo gajar-monday">Aloo gajar</label><br>
+                        <input type="radio" name="dinner-monday" value="Aloo gobhi" id="Aloo gobhi-monday"><label for="Aloo gobhi-monday">Aloo gobhi </label><br>
+                    </div>
+                    <!-- Repeat for other days of the week -->
+                </div>
+                <button onclick="submitVote()">Submit Vote</button>
+                <p id="result"></p>
+            </div>
+            <div class="container">
+            
+           
+            <div class="options">
+                <div id="options-tuesday">
+                    <h3>Tuesday</h3>
+                    <input type="radio" name="dinner-tuesday" value="Khichdi" id="Khichdi-tuesday"><label for="Khichdi-tuesday">Khichdi</label><br>
+                    <input type="radio" name="dinner-tuesday" value="Vegetable Biryani" id="Vegetable Biryani-tuesday"><label for="Vegetable Biryani-tuesday"> Vegetable Biryani</label><br>
+                    <input type="radio" name="dinner-tuesday" value="Paneer Butter Masala" id="Paneer Butter Masala-tuesday"><label for="Paneer Butter Masala-tuesday"> Paneer Butter Masala</label><br>
+                    <input type="radio" name="dinner-tuesday" value="Aalu parantha" id="aalu parantha-tuesday"><label for="aalu parantha-tuesday"> Aalu parantha</label><br>
+                </div>
+                <!-- Repeat for other days of the week -->
+            </div>
+            <button onclick="submitVote()">Submit Vote</button>
+            <p id="result"></p>
+        </div>
+        <div class="container">
+            
+           
+            <div class="options">
+                <div id="options-wednesday">
+                    <h3>Wednesday</h3>
+                    <input type="radio" name="dinner-wednesday" value=" Paneer Dosa" id="Paneer dosa-wednesday"><label for="Paneer dosa-wednesday"> Paneer dosa</label><br>
+                    <input type="radio" name="dinner-wednesday" value="Omelette" id="omelette-wednesday"><label for="fried rice-wednesday"> Fried Rice</label><br>
+                    <input type="radio" name="dinner-wednesday" value="Sprouts" id="sprouts-wednesday"><label for="sprouts-wednesday"> Sprouts</label><br>
+                    <input type="radio" name="dinner-wednesday" value="Pav Bhajii" id="pav bhajii-wednesday"><label for="pav bhajii-wednesday"> Pav Bhajii</label><br>
+                </div>
+                <!-- Repeat for other days of the week -->
+            </div>
+            <button onclick="submitVote()">Submit Vote</button>
+            <p id="result"></p>
+        </div>
+        <div class="container">
+        <div class="options">
+            <div id="options-thursday">
+                <h3>Thursday</h3>
+                <input type="radio" name="dinner-thursday" value="Dal Tadka" id="Dal Tadka-thursday"><label for="Dal Tadka-thursday"> Dal Tadka</label><br>
+                <input type="radio" name="dinner-thursday" value="Fried Rice" id="fried rice-thursday"><label for="fried rice-thursday"> Fried Rice</label><br>
+                <input type="radio" name="dinner-thursday" value="Palak Paneer" id="Palak Paneer-thursday"><label for="Palak Paneer-thursday"> Palak Paneer</label><br>
+                <input type="radio" name="dinner-thursday" value="Gobhi Parantha" id="gobhi parantha-thursday"><label for="gobhi parantha-thursday"> Gobhi Parantha</label><br>
+            </div>
+            <!-- Repeat for other days of the week -->
+        </div>
+        <button onclick="submitVote()">Submit Vote</button>
+        <p id="result"></p>
+        </div>
+        <div class="container">
+            <div class="options">
+                <div id="options-friday">
+                    <h3>Friday</h3>
+                    <input type="radio" name="dinner-friday" value="Aloo jeera" id="Aloo jeera-friday"><label for="Aloo jeera-friday"> Aloo jeera</label><br>
+                    <input type="radio" name="dinner-friday" value=" Arhar Dal rice" id=" Arhar Dal rice-friday"><label for=" Arhar Dal rice-friday">  Arhar Dal rice</label><br>
+                    <input type="radio" name="dinner-friday" value=" masur Dal " id=" masur dal -friday"><label for=" masur dal -friday"> Masur dal</label><br>
+                    <input type="radio" name="dinner-friday" value="Idli Sambhar" id="idli sambhar-friday"><label for="idli sambhar-friday"> Idli Sambhar</label><br>
+                </div>
+                <!-- Repeat for other days of the week -->
+            </div>
+            <button onclick="submitVote()">Submit Vote</button>
+            <p id="result"></p>
+            </div>
+            <div class="container">
+                <div class="options">
+                    <div id="options-saturday">
+                        <h3>Saturday</h3>
+                        <input type="radio" name="breakfast-saturday" value="masala Dosa" id="masala dosa-saturday"><label for="masala dosa-saturday"> Masala Dosa</label><br>
+                        <input type="radio" name="breakfast-saturday" value="Omelette" id="omelette-saturday"><label for="omelette-saturday"> Omelette</label><br>
+                        <input type="radio" name="breakfast-saturday" value="aloo matar" id="aloo matar-saturday"><label for="aloo matar-saturday"> Aloo matar</label><br>
+                        <input type="radio" name="breakfast-saturday" value="Aloo parantha" id="aloo parantha-saturday"><label for="aloo parantha-saturday"> Aloo parantha</label><br>
+                    </div>
+                    <!-- Repeat for other days of the week -->
+                </div>
+                <button onclick="submitVote()">Submit Vote</button>
+                <p id="result"></p>
+                </div>
+                <div class="container">
+                    <div class="options">
+                        <div id="options-Sunday">
+                            <h3>Sunday</h3>
+                            <input type="radio" name="breakfast-Sunday" value="Paneer tikka" id="paneer tikka-Sunday"><label for="paneer tikka-Sunday"> Paneer tikka</label><br>
+                            <input type="radio" name="breakfast-Sunday" value="veg biryani" id="veg biryani-Sunday"><label for="veg biryani-Sunday"> Veg biryani</label><br>
+                            <input type="radio" name="breakfast-Sunday" value="mix veg" id="mix veg-Sunday"><label for="mix veg-Sunday"> mix veg</label><br>
+                            <input type="radio" name="breakfast-Sunday" value=" tur Dal rice" id="tur dal rice-Sunday"><label for="tur dal rice-Sunday">  Tur Dal rice</label><br>
+                        </div>
+                        <button onclick="submitVote()">Submit Vote</button>
+                <p id="result"></p>
+                </div>
+    <script src="ad.js"></script>
+</body>
+</html>
